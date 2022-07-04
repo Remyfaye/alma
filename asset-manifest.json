@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alma/static/css/main.282ad3de.css",
+    "main.js": "/alma/static/js/main.191c3683.js",
+    "static/js/787.e38eb092.chunk.js": "/alma/static/js/787.e38eb092.chunk.js",
+    "index.html": "/alma/index.html",
+    "main.282ad3de.css.map": "/alma/static/css/main.282ad3de.css.map",
+    "main.191c3683.js.map": "/alma/static/js/main.191c3683.js.map",
+    "787.e38eb092.chunk.js.map": "/alma/static/js/787.e38eb092.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.282ad3de.css",
+    "static/js/main.191c3683.js"
+  ]
+}
