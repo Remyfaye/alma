@@ -1,0 +1,128 @@
+
+.chatTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    border-bottom: 1px solid #f9f9f9;
+    cursor: pointer;
+}
+.chatTopItem{
+    font-size: 20px;
+}
+.chatTopItem:hover{
+    color: #d44343;
+}
+.userImg{
+    height: 70px;
+    border-radius: 50%;
+}
+.chatLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.chatDisplay.active{
+    display: none;
+}
+.chatDisplayItem{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+.chatRight{
+    margin: 30px;
+    color: rgb(167, 142, 142);
+}
+.usernameitem{
+    margin-left: 0px;
+    text-transform: capitalize;
+    text-align: start;
+    
+}
+.usermessage{
+    text-align: start;
+    margin-top: 5px;
+    color: gray;
+}
+.chatInfo{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+   
+    
+    margin: 27px 26px;
+}
+.chatLink{
+    text-decoration: none;
+}
+/*======================status========================*/
+.statusTopImg{
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.statusTop{
+    display: flex;
+    align-items: center;
+}
+.statusTopRight{
+    text-align: start;
+    margin-left: 20px;
+}
+.statusCenter{
+    margin: 18px;
+    text-align: start;
+    font-size:15px;
+}
+.statusWrapper{
+    display: none;
+}
+.statusWrapper.active{
+    display: block;
+}
+
+/*======================chatscreen========================*/
+.messageSender{
+    display: flex;
+    margin: 25px;
+    align-items: center;
+}
+.messageSenderText{
+    
+    margin: 15px;
+    background-color: #ebcece;
+    padding: 15px 25px;
+    border-radius: 20px;
+    
+}
+
+.chatscreenImg{
+    width: 40px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.messageRecieverText{
+    margin-left: auto;
+    text-align: end;
+    
+    margin-right:20px ;
+    background-color: #ceebe6;
+    padding: 18px 25px;
+    border-radius: 20px;
+    
+}
+.messageReciever{
+    display: flex;
+}
+
+
+
+
+
+
+

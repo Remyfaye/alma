@@ -1,0 +1,97 @@
+
+
+.card{
+    position: relative;
+    width: 600px;
+    border-radius: 20px;
+    
+    max-width: 95vw;
+    height: 74vh;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0px 10px 0 rgba(0,0,0.6);
+    margin: 10px;
+    
+}
+.card.dislike{
+    visibility: hidden;
+    background-color: red;
+    
+    width: 200px;
+    
+}
+
+.tinder-cards{
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 1vh;
+    
+}
+.swipe{
+    position: absolute;
+}
+
+.userInfo{
+    padding: 20px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userOptions{
+    position: absolute;
+    bottom: 4vh;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    color: rgb(163, 12, 12);
+    cursor: pointer;
+}
+.cancel{
+    font-size: 50px;
+    color: black;
+    background-color: rgb(39, 122, 39);
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 7px rgba(0,9.8,0.8,0.2);
+}
+.like{
+    font-size: 50px;
+    padding: 10px;
+    background-color: rgb(95, 16, 16);
+    border-radius: 50%;
+    color: black;
+    box-shadow: 0 0 10px 7px rgba(0,9.8,0.8,0.2);
+}
+.cancel:hover{
+    background-color: gray;
+}
+.like:hover{
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
